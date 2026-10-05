@@ -1,0 +1,36 @@
+team1_points = 85
+team2_points = 72
+team3_points = 93
+
+total_points = team1_points + team2_points + team3_points
+print("Total points:", total_points)
+
+average_points = total_points // 3
+print("Average points:", average_points)
+
+total_stars = 25
+stars_per_box = 6
+
+boxes = total_stars // stars_per_box
+leftover_stars = total_stars % stars_per_box
+
+print("Full reward boxes:", boxes)
+print("Leftover stars:", leftover_stars)
+
+last_week_points = 230
+this_week_points = total_points
+
+score_difference = this_week_points - last_week_points
+print("Difference from last week:", score_difference)
+
+total_points += 10
+print("After bonus:", total_points)
+
+total_points -= 5
+print("After deduction:", total_points)
+
+total_points *= 2
+print("After doubling:", total_points)
+
+total_points //= 2
+print("After dividing by 2:", total_points)
